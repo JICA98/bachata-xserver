@@ -14,7 +14,7 @@ add_library(bachata_xserver SHARED
             src/xinput_stream.c
             src/xoutput_stream.c
             src/arrays.c
-            src/ring_buffer.c
+            src/ring_buffer.c)
 
 target_link_libraries(bachata_xserver
                       log
